@@ -17,4 +17,10 @@ public class EightBallTest {
         assertEquals(3, eightBall.getAnswerCount());
     }
 
+    @Test
+    public void canAddAnswer(){
+        eightBall.addAnswer("Most likely");
+        assertEquals(4, eightBall.getAnswerCount());
+    }
+
 }
