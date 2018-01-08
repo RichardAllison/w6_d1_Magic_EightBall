@@ -23,4 +23,10 @@ public class EightBallTest {
         assertEquals(4, eightBall.getAnswerCount());
     }
 
+    @Test
+    public void canRemoveAnswer(){
+        eightBall.removeAnswer();
+        assertEquals(2, eightBall.getAnswerCount());
+    }
+
 }
