@@ -14,7 +14,7 @@ public class EightBallTest {
 
     @Test
     public void hasLength(){
-        assertEquals(0, eightBall.getAnswerCount());
+        assertEquals(3, eightBall.getAnswerCount());
     }
 
 }
